@@ -139,3 +139,20 @@ uncomment the  `exclude-file` section below and add the file paths.
 #  - $(this-folder)/Microsoft.Example/stable/2010-01-01/somefile.json
 ```
 
+## CLI
+
+These settings apply only when `--cli` is specified on the command line.
+
+``` yaml $(cli)
+cli:
+  namespace: azure.mgmt.powerbidedicated
+  flatten-all: true
+  cmd-override:
+    "^powerbidedicated capacity$": "powerbi embedded-capacity"
+    "^powerbidedicated capacity suspend$": "-"
+    "^powerbidedicated capacity check-name-availability$": "-"
+    "^powerbidedicated capacity resume$": "-"
+    "^powerbidedicated capacity list-skus$": "-"
+    "^powerbidedicated capacity list-skus-for-capacity$": "-"
+    "^.*powerbidedicated operation.*$": "-" #Dsiable command group "powerbidedicated operation"
+```
