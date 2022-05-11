@@ -3,7 +3,7 @@
     "subscriptionId": "34adfa4f-cedf-4dc0-ba29-b6d1a69ab345",
     "resourceGroupName": "examplerg",
     "name": "testenv",
-    "api-version": "2022-01-01-preview",
+    "api-version": "2021-11-01-preview",
     "kind": "kubernetes",
     "location": "East US",
     "extendedLocation": {
@@ -20,9 +20,9 @@
   "responses": {
     "200": {
       "body": {
-        "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/edgeEnvironments/testenv",
+        "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/kubeEnvironments/testenv",
         "name": "testenv",
-        "type": "Microsoft.App/edgeEnvironments",
+        "type": "Microsoft.App/kubeEnvironments",
         "location": "East US",
         "extendedLocation": {
           "name": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.ExtendedLocation/customLocations/testcustomlocation",
@@ -39,9 +39,9 @@
     },
     "201": {
       "body": {
-        "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/edgeEnvironments/testenv",
+        "id": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.App/kubeEnvironments/testenv",
         "name": "testenv",
-        "type": "Microsoft.App/edgeEnvironments",
+        "type": "Microsoft.App/kubeEnvironments",
         "location": "East US",
         "extendedLocation": {
           "name": "/subscriptions/34adfa4f-cedf-4dc0-ba29-b6d1a69ab345/resourceGroups/examplerg/providers/Microsoft.ExtendedLocation/customLocations/testcustomlocation",

@@ -26,21 +26,18 @@ These are the global settings for the app.
 
 ```yaml
 openapi-type: arm
-tag: package-2022-01-01-preview
+tag: package-2022-11-01-preview
 ```
 
-### Tag: package-2022-01-01-preview
+### Tag: package-2021-11-01-preview
 
-These settings apply only when `--tag=package-2022-01-01-preview` is specified on the command line.
+These settings apply only when `--tag=package-2021-11-01-preview` is specified on the command line.
 
-```yaml $(tag) == 'package-2022-01-01-preview'
+```yaml $(tag) == 'package-2021-11-01-preview'
 input-file:
-  - Microsoft.App/preview/2022-01-01-preview/CommonDefinitions.json
-  - Microsoft.App/preview/2022-01-01-preview/ContainerApps.json
-  - Microsoft.App/preview/2022-01-01-preview/ContainerAppsRevisions.json
-  - Microsoft.App/preview/2022-01-01-preview/ManagedEnvironments.json
-  - Microsoft.App/preview/2022-01-01-preview/Global.json
-  - Microsoft.App/preview/2022-01-01-preview/EdgeEnvironments.json
+  - Microsoft.App/preview/2021-11-01-preview/CommonDefinitions.json
+  - Microsoft.App/preview/2021-11-01-preview/KubeEnvironments.json
+  - Microsoft.App/preview/2021-11-01-preview/Global.json
 directive:
 - suppress: R4009
   from: ContainerAppsRevisions.json
